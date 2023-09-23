@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+
+.footer {
+  font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
+}
+.opening-hours {
+    background: rgba(207, 152, 50, 0.15);
+    opacity: 0.6;
+    
+}
+
+.input-outline {
+    outline: none;
+}
