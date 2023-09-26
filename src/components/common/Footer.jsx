@@ -48,8 +48,8 @@ export const Footer = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-start mt-14 lg:mt-0 md:items-end lg:space-y-28 space-y-14 w-full md:w-2/3 lg:w-1/2 ">
-            <div className="flex md:flex-row flex-col md:items-start items-center justify-center text-[#A3A3A3] w-full gap-14">
+          <div className="flex flex-col mt-14 lg:mt-0  lg:space-y-28 space-y-14 md:w-2/3 lg:w-1/2 border ">
+            <div className="flex md:flex-row flex-col border text-[#A3A3A3] w-full gap-14 shrink-0 ">
               <ul className="flex flex-col w-full md:items-start items-center gap-3">
                 <li className="hover:bg-[#525252] px-3 py-1 rounded-md cursor-pointer">
                   <a href="">About Us</a>
@@ -82,7 +82,7 @@ export const Footer = () => {
               </ul>
             </div>
 
-            <div className="mt-6 flex flex-col w-full text-[#A3A3A3] text-center lg:text-right font-semibold py-4 space-y-4">
+            <div className="mt-6 flex border flex-col w-full text-[#A3A3A3] text-center lg:text-right lg:items-end font-semibold py-4 space-y-4">
               <strong className="md:text-3xl text-2xl block mb-2 ">
                 NewsLetter
               </strong>
