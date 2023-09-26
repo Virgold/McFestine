@@ -3,8 +3,11 @@ import { Navbar } from '../common/Navbar'
 
 const HomePage = () => {
     return (
-        <div className=" h-[1000000px]">
-            <Navbar />
+        <div className="">
+            <Navbar
+                loginStyle='text-[white] bg-[#CF9832] border border-[white] rounded-full md:py-[12px] py-[5px] md:px-[17px] px-[6px]'
+                signUpStyle='text-[#CF9832] bg-white border border-[white] shadow rounded-full md:py-[12px] py-[5px] md:px-[17px] px-[6px]'
+            />
         </div>
     )
 }
