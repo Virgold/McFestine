@@ -82,7 +82,7 @@ export const Footer = () => {
               </ul>
             </div>
 
-            <div className="mt-6 flex flex-col w-full text-[#A3A3A3] text-center lg:text-right font-semibold py-4 space-y-4">
+            <div className="mt-6 flex flex-col w-full text-[#A3A3A3] text-center lg:items-end lg:text-right font-semibold py-4 space-y-4">
               <strong className="md:text-3xl text-2xl block mb-2 ">
                 NewsLetter
               </strong>
