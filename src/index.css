@@ -1,19 +1,15 @@
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-=======
-@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Nunito:wght@400;500;600;700&display=swap');
->>>>>>> db5ff249e8f3f393a0e4f3741aebde6ba9893258
+@import url("https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Nunito:wght@400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Nunito', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
 }
-li{
-    cursor: pointer;
+li {
+  cursor: pointer;
 }
