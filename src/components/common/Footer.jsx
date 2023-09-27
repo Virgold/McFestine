@@ -8,7 +8,7 @@ import McFestineIcon from "../../assets/images/McFestine_icon.png";
 
 export const Footer = () => {
   return (
-    <div className="bg-[#313131] text-white footer">
+    <div className="bg-[#313131] text-white footer mt-0">
       <div className="container mx-auto py-8 px-4 md:px-0">
         <div className=" flex flex-col lg:flex-row justify-between items-center pb-8">
           <div className="md:w-2/3 lg:w-1/2 w-full flex flex-col justify-center items-center lg:items-start space-y-11 ">
