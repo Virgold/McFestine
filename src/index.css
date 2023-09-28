@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Nunito:wght@400;500;600;700&display=swap');
+=======
 @import url("https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Nunito:wght@400;500;600;700&display=swap");
+>>>>>>> 48f55b9f6a11cfa1c6ce688af7f4701a45ca027e
 
 @tailwind base;
 @tailwind components;
