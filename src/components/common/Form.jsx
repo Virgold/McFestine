@@ -45,9 +45,9 @@ const Form = () => {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
               <path d="M6 9l6 6 6-6" />
             </svg>
@@ -65,7 +65,7 @@ const Form = () => {
         <textarea
           id="message"
           rows="6"
-          class="block py-2 px-3 md:py-4 md:px-6  w-full text-sm md:text-base text-base text-gray-900 bg-gray-50 rounded-xl border border-gray-300 focus:ring-blue-500 focus:border-blue-500 input-outline "
+          className="block py-2 px-3 md:py-4 md:px-6  w-full text-sm md:text-base text-base text-gray-900 bg-gray-50 rounded-xl border border-gray-300 focus:ring-blue-500 focus:border-blue-500 input-outline "
           placeholder="Your Message..."
         ></textarea>
 
