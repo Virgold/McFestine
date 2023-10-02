@@ -27,7 +27,7 @@ export const Navbar = ({ loginStyle, signUpStyle }) => {
   }, []);
 
   return (
-    <nav className='md:py-6 py-4 md:px-15 sm:px-10 px-5 bg-[#ffffff] shadow-md fixed w-full z-10'>
+    <nav className='md:py-6 py-4 md:px-15 sm:px-10 px-5 bg-[#FDFDFD] fixed w-full z-10'>
       <div className='container mx-auto flex items-center justify-between relative'>
 
         <div className='flex items-center'>
