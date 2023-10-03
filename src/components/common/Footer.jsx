@@ -24,10 +24,10 @@ export const Footer = () => {
                 </span>
               </div>
               <div className="flex justify-center lg:justify-start items-center  b space-x-4 ">
-                <img src={facebook} alt="Facebook" className="w-6 h-6" />
-                <img src={twitter} alt="Twitter" className="w-6 h-6" />
-                <img src={instagram} alt="Instagram" className="w-6 h-6" />
-                <img src={linkedin} alt="LinkedIn" className="w-6 h-6" />
+                <img src={facebook} alt="Facebook" className="w-6 h-6 cursor-pointer hover:opacity-60" />
+                <img src={twitter} alt="Twitter" className="w-6 h-6 cursor-pointer hover:opacity-60" />
+                <img src={instagram} alt="Instagram" className="w-6 h-6 cursor-pointer hover:opacity-60" />
+                <img src={linkedin} alt="LinkedIn" className="w-6 h-6 cursor-pointer hover:opacity-60" />
               </div>
             </div>
 
@@ -90,7 +90,7 @@ export const Footer = () => {
                 Sign up today for the latest news and updates.
               </span>
               <div className="relative max-w-lg">
-                <label className="sr-only" for="email">
+                <label className="sr-only" htmlFor="email">
                   {" "}
                   Email{" "}
                 </label>
@@ -114,13 +114,13 @@ export const Footer = () => {
           <div className=" flex flex-col md:flex-row md:justify-between items-center text-white md:text-base text-sm  font-light pt-4">
             <ul className="flex justify-center flex-wrap md:justify-end space-x-4">
               <li>
-                <a href="#">Terms & Conditions</a>
+                <a className="hover:opacity-50" href="#">Terms & Conditions</a>
               </li>
               <li>
-                <a href="#">Privacy</a>
+                <a className="hover:opacity-50" href="#">Privacy</a>
               </li>
               <li>
-                <a href="#">Cookie Settings</a>
+                <a className="hover:opacity-50" href="#">Cookie Settings</a>
               </li>
             </ul>
             <div className=" mt-4">©2022 McFestine’s. All rights reserved.</div>
