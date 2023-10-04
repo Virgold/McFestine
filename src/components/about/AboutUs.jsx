@@ -9,6 +9,8 @@ import restaurant from "../../assets/images/girl_in_restaurant.png";
 import Form from "../common/Form";
 
 const AboutUs = () => {
+
+ 
   return (
     <div className="pt-[120px] bg-[#FDFDFD]  ">
       <section className="flex md:flex-row m-auto w-full items-center justify-center md">
