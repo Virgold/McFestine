@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer {
+  font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
+}
+.opening-hours {
+    background: rgba(207, 152, 50, 0.15);
+    opacity: 0.6;
+    width: 200px;    
+}
+
+.input-outline {
+    outline: none;
+}
+
+@media screen and (max-width:768px) {
+  .opening-hours {
+    width: 100%;
+  }
+}
+
+@media (max-width:1024px) {
+  .opening-hours {
+    width: 500px;
+  }
+}
+
+@media screen and (min-width:1025px) {
+  .opening-hours {
+    width: 534px;
+  }
+}
+
+
+
+

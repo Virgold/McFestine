@@ -39,6 +39,7 @@ export const Navbar = ({ loginStyle, signUpStyle }) => {
   }, []);
 
   return (
+
     <nav className={`transition-all md:py-6 py-4 md:px-15 sm:px-10 px-5 w-full z-10 
     // ${navHeight ? 'bg-[#FDFDFD] shadow fixed' : ''} 
     sm:bg-none`}>
