@@ -12,6 +12,7 @@ const AboutUs = () => {
   return (
     <div className="pt-[120px] bg-[#FDFDFD]  ">
       <section className="flex md:flex-row m-auto w-full items-center justify-center md">
+        
         <div className="lg:w-1/2 w-full">
           <div className="container m-auto py-5">
             <div className="md:w-[553px] w-[90%] m-auto">
@@ -41,6 +42,7 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
+
         <div className="w-1/2 h-full hidden lg:block">
           <div className="container m-auto py-5">
             <div className="relative">
