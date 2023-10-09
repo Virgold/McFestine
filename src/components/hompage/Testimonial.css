@@ -1,0 +1,16 @@
+/* Custom styles for Swiper pagination bullets */
+.swiper-pagination-bullet {
+    background-color: #292217;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #8A6521;
+  }
+
+  .swiper-button-next {
+    color: #52390a;
+  }
+  .swiper-button-prev {
+    color: #52390a;
+  }
+  

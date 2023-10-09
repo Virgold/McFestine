@@ -3,6 +3,7 @@ import { Navbar } from "../common/Navbar";
 import { Footer } from "../common/Footer";
 import AboutUs from "../about/AboutUs";
 import ChooseUs from "./ChooseUs";
+import Testimonial from "./Testimonial";
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       <div className="py-16">
         <ChooseUs />
       </div>
+      <Testimonial />
       {/* <AboutUs/> */}
       <Footer />
     </div>
