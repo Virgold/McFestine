@@ -23,7 +23,7 @@ export const Navbar = ({ loginStyle, signUpStyle }) => {
     }
   }
 
-  const handleScrollEffect = () => {
+  const handleScrollEffect = () => { 
     if (window.scrollY > 150) {
       setNavHeight(true);
     } else {
@@ -52,11 +52,11 @@ export const Navbar = ({ loginStyle, signUpStyle }) => {
         </div>
 
         <ul className={`${navLinksUlWrapperStyle}`}>
-          <Link to="/" className={`text-[#CF9832] ${navLinksStyle}`}><a href="#">Home</a></Link>
-          <Link to="/store" className={navLinksStyle}><a href="#">Store</a></Link>
-          <Link to="/about" className={navLinksStyle}><a href="#">About</a></Link>
-          <Link to="/blog" className={navLinksStyle}><a href="#">Blog</a></Link>
-          <Link to="/contact" className={navLinksStyle}><a href="#">Contact</a></Link>
+          <Link to="/" className={`text-[#CF9832] ${navLinksStyle}`}>Home</Link>
+          <Link to="/store" className={navLinksStyle}>Store</Link>
+          <Link to="/about" className={navLinksStyle}>About</Link>
+          <Link to="/blog" className={navLinksStyle}>Blog</Link>
+          <Link to="/contact" className={navLinksStyle}>Contact</Link>
         </ul>
 
         <div className='flex gap-4'>
