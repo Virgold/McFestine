@@ -4,6 +4,7 @@ import { Footer } from "../common/Footer";
 import AboutUs from "../about/AboutUs";
 import ChooseUs from "./ChooseUs";
 import Testimonial from "./Testimonial";
+import ContactUs from "../contact/ContactUs";
 
 const HomePage = () => {
   return (
@@ -13,10 +14,11 @@ const HomePage = () => {
         signUpStyle="text-[#CF9832] bg-white border border-[white] shadow rounded-full md:py-[12px] py-[5px] md:px-[17px] px-[6px]"
       />
       <div className="py-16">
-        <ChooseUs />
+        {/* <ChooseUs /> */}
       </div>
-      <Testimonial />
+      {/* <Testimonial /> */}
       {/* <AboutUs/> */}
+      {/* <ContactUs /> */}
       <Footer />
     </div>
   );
