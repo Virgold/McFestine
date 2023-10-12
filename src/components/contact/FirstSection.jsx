@@ -6,7 +6,7 @@ import Card from '../common/Card';
 
 const FirstSection = () => {
     return (
-        <div className='pt-[1rem] lg:pt-[10rem] pb-[5rem] w-full relative lg:container mx-auto'>
+        <div className='pt-[1rem]  w-full relative lg:container mx-auto'>
 
             <div className='flex flex-row justify-between'>
                 <div className='pt-4 lg:min-w-[50%] w-full mx-auto px-8 lg:ps-12 lg:pe-4'>
@@ -17,7 +17,7 @@ const FirstSection = () => {
 
 
                 <div className='w-auto lg:contents hidden'>
-                    <img src={contactImg1} alt="" className=' ' />
+                    <img src={contactImg1} alt="" className='rounded' />
                 </div>
             </div >
 

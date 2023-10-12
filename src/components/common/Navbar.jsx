@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import logo from '../../assets/image 25.png';
 import Button from './Button';
+import { Link } from 'react-router-dom';
+
 
 export const Navbar = ({ loginStyle, signUpStyle }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [navHeight, setNavHeight] = useState(false);
 
   const navLinksStyle = `${menuOpen && 'hover:bg-[#e7bd3c8f] py-4 w-full rounded -m-'} hover:md:text-[#CF9832]`
-  const navLinksUlWrapperStyle = `${menuOpen ? 'absolute top-16 w-[100%] right-0 rounded-b-2xl transition-all shadow-xl bg-[#FDFDFD]' : 'hidden'} gap-6 md:flex md:flex-row flex-col items-center justify-center text-center gap py-6 px-8 text-[#666666] uppercase font-semibold`
+  const navLinksUlWrapperStyle = `${menuOpen ? 'absolute top-0 w-[100%] right-0 rounded-b-2xl transition-all shadow-xl bg-[#FDFDFD]' : 'hidden'} gap-6 md:flex md:flex-row flex-col items-center justify-center text-center gap py-6 px-8 text-[#666666] uppercase font-semibold`
 
   // rgba(246,245,242,0.87)
 
@@ -22,7 +24,7 @@ export const Navbar = ({ loginStyle, signUpStyle }) => {
   }
 
   const handleScrollEffect = () => {
-    if (window.scrollY > 150) {
+    if (window.scrollY > 100) {
       setNavHeight(true);
     } else {
       setNavHeight(false);
@@ -46,15 +48,15 @@ export const Navbar = ({ loginStyle, signUpStyle }) => {
       <div className='container mx-auto flex items-center justify-between relative'>
 
         <div className='flex items-center'>
-          <img src={logo} alt="Logo" className='h-12 ' />
+         <Link to="/"> <img src={logo} alt="Logo" className='h-12 ' /></Link>
         </div>
 
         <ul className={`${navLinksUlWrapperStyle}`}>
-          <li className={`text-[#CF9832] ${navLinksStyle}`}><a href="#">Home</a></li>
-          <li className={navLinksStyle}><a href="#">Store</a></li>
-          <li className={navLinksStyle}><a href="#">About</a></li>
-          <li className={navLinksStyle}><a href="#">Blog</a></li>
-          <li className={navLinksStyle}><a href="#">Contact</a></li>
+          <Link to="/" className={`text-[#CF9832] ${navLinksStyle}`}><a href="#">Home</a></Link>
+          <Link to="/store" className={navLinksStyle}><a href="#">Store</a></Link>
+          <Link to="/about" className={navLinksStyle}><a href="#">About</a></Link>
+          <Link to="/blog" className={navLinksStyle}><a href="#">Blog</a></Link>
+          <Link to="/contact" className={navLinksStyle}><a href="#">Contact</a></Link>
         </ul>
 
         <div className='flex gap-4'>
