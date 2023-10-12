@@ -3,7 +3,7 @@ import { Navbar } from '../components/common/Navbar';
 import { Footer } from '../components/common/Footer';
 import ContactUs from '../components/contact/ContactUs';
 
-export const Contact = () => {
+ const Contact = () => {
     return (
         <div className='bg-[#b3b3b31c] min-w-full min-h-screen overflow-x-hidden'>
             <Navbar
@@ -15,3 +15,5 @@ export const Contact = () => {
         </div>
     )
 }
+
+export default Contact

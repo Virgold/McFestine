@@ -44,7 +44,7 @@ const ContactUs = () => {
         <img src={map} alt="" className="w-[95%] md:w-[90%]" />
       </div>
 
-      <div className="bg-[white] cursor-pointer shadow-lg space-y-4 px-[20px] pt-[32px] pb-[50px] w-[100%] sm:w-[50%] md:w-[33%] text-center rounded-[15px] scale-75">
+      {/* <div className="bg-[white] cursor-pointer shadow-lg space-y-4 px-[20px] pt-[32px] pb-[50px] w-[100%] sm:w-[50%] md:w-[33%] text-center rounded-[15px] scale-75">
         <img src={location} alt="" className="mx-auto mb-4" />
         <a href="http://" className="text-[20px] pb-4 text-gray-500">
           Gaadi Layout, Coca Cola Bus Stop, Km 5 Gboko Road, Makurdi
@@ -61,7 +61,7 @@ const ContactUs = () => {
       </div>
       <div className="flex justify-center items-center mb-[10rem]">
         <img src={map} alt="" className="w-[95%] md:w-[90%]" />
-      </div>
+      </div> */}
     </>
   );
 };

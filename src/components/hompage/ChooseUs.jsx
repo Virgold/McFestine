@@ -9,7 +9,7 @@ const ChooseUs = () => {
     <div className="bg-[#F5EAD6] pt-[120px] ">
       <div className="text-center">
         <h1 className="lg:text-5xl md:text-4xl text-2xl  font-medium text-[#291E0A] ">
-          Product and Services
+        Why Choose McFestines
         </h1>
         <span className="lg:text-2xl md:text-xl text-sm  font-medium text-[#404040] ">
           We offer quality food, groceries and services.
