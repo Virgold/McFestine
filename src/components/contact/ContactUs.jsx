@@ -3,10 +3,10 @@ import { Navbar } from '../common/Navbar';
 import Faq from './Faq';
 import Form from './Form';
 import FirstSection from './FirstSection';
-import email from '../../assets/mail.png'
-import location from '../../assets/location_on.png'
-import phone from '../../assets/call.png'
-import map from '../../assets/Rectangle.png'
+import email from '../../assets/images/mail.png'
+import location from '../../assets/images/location_on.png'
+import phone from '../../assets/images/call.png'
+import map from '../../assets/images/Rectangle.png'
 import { Footer } from '../common/Footer';
 
 const ContactUs = () => {
@@ -35,7 +35,7 @@ const ContactUs = () => {
                 </div>
             </div>
 
-            <div className='flex justify-center items-center mb-[10rem]'>
+            <div className='flex justify-center items-center mb-[19rem]'>
                 <img src={map} alt="" className='w-[95%] md:w-[90%]' />
             </div>
 

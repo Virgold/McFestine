@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from './Button';
-import support_agent from '../../assets/support_agent.png'
+import support_agent from '../../assets/images/support_agent.png'
 
 const Card = () => {
     return (

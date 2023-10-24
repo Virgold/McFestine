@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import dropdown_arrow from '../../assets/dropdown.svg'
+import dropdown_arrow from '../../assets/images/dropdown.svg'
 
 const Faq = () => {
     const [activeIndex, setActiveIndex] = useState(0);

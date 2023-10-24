@@ -2,7 +2,7 @@ import React from "react";
 import bgImage from "../../assets/images/coffee_table.png";
 import osas from "../../assets/images/osas.png";
 import appIcon from "../../assets/images/group-box.svg";
-import shoppingCart from "../../assets/shopping_cart.png";
+import shoppingCart from "../../assets/images/shopping_cart.png";
 import CardSection from "./CardSection";
 import process from "../../assets/images/process.png";
 import restaurant from "../../assets/images/girl_in_restaurant.png";

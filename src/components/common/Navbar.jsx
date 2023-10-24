@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import logo from '../../assets/image 25.png';
+import logo from '../../assets/images/image 25.png';
 import Button from './Button';
 
 export const Navbar = ({ loginStyle, signUpStyle }) => {
@@ -22,7 +22,7 @@ export const Navbar = ({ loginStyle, signUpStyle }) => {
   }
 
   const handleScrollEffect = () => {
-    if (window.scrollY > 150) {
+    if (window.scrollY > 170) {
       setNavHeight(true);
     } else {
       setNavHeight(false);
