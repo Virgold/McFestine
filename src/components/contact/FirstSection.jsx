@@ -1,7 +1,7 @@
 import React from 'react';
-import contactImg1 from '../../assets/unsplash_kufY1HyGEO8.jpg'
-import contactImg2 from '../../assets/Group 34.png'
-import contactImg3 from '../../assets/shopping_cart.png'
+import contactImg1 from '../../assets/images/unsplash_kufY1HyGEO8.jpg'
+import contactImg2 from '../../assets/images/Group 34.png'
+import contactImg3 from '../../assets/images/shopping_cart.png'
 import Card from '../common/Card';
 
 const FirstSection = () => {
