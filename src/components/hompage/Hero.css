@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: tahoma;
+}
+
+.heroSection {
+  background-color: #cf9832;
+}
+.slantBackground {
+  height: 90vh;
+  width: 65%;
+  border-right: 290px solid #cf9832;
+  border-top: 739.5px solid white;
+}
+.enclosingSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.textHero {
+  margin-top: -47rem;
+  margin-left: 43px;
+}
+.textHero h1 {
+  font-size: 70px;
+  width: 60%;
+  line-height: 1.2;
+}
+.textHero h1 span {
+  color: #cf9832;
+}
+.textHero h3 {
+  font-size: 23px;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.textHero p {
+  font-size: 17px;
+  width: 65%;
+  margin-bottom: 2rem;
+  color: gray;
+}
+.textHero p span {
+  color: #cf9832;
+}
+.textHero img {
+  margin-bottom: -2.2rem;
+  margin-left: 2rem;
+  z-index: -99;
+  z-index: 1;
+  position: relative;
+}
+
+.imageHeroSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -33.5rem;
+  margin-top: -52rem;
+}
+.imageOne {
+  border: 1px solid #ffffff8f;
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+  margin-right: -322px;
+  background-color: #fff;
+  z-index: -99;
+  z-index: 1;
+  position: relative;
+  box-shadow: 17px 5px 77px 0px #3a3a3aab;
+}
+.imageOne img {
+  margin-top: 2.5rem;
+}
+.imageTwo {
+  border: 18px solid white;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: #cf9832;
+}
+
+.dots img {
+  margin-left: 38rem;
+  margin-top: -1rem;
+}
+
+.heroCart img {
+  border: 1px solid white;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 10px;
+}
+.heroCart {
+  margin-left: 35rem;
+  margin-top: -10rem;
+  margin-bottom: -2rem;
+}
+
+.heroBottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -7rem;
+}
+/* MEDIA QUERY FOR SMALL SCREENS HERO SECTION */
+
+@media screen and (max-width: 576px) {
+  .heroSection {
+    overflow-x: hidden;
+  }
+  .imageHeroSection {
+    display: none;
+  }
+  .slantBackground {
+    width: 100%;
+    border: none;
+    background-color: #fff;
+  }
+  .textHero {
+    margin-top: 9rem;
+    text-align: center;
+    line-height: 1.5;
+    margin-left: -9px;
+    margin-top: 6rem;
+  }
+  .textHero h1 {
+    font-size: 40px;
+    width: 100%;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+  }
+  .textHero h1 span {
+    color: #cf9832;
+  }
+  .textHero h3 {
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 2.4rem;
+  }
+  .textHero p {
+    font-size: 15px;
+    width: 90%;
+    margin-bottom: 4rem;
+    margin-left: 18px;
+  }
+  .dots img {
+    display: none;
+  }
+  .heroCart img {
+    border: 2px solid #cf9832;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 10px;
+  }
+  .heroCart {
+    margin-left: 11rem;
+    margin-top: -2px;
+    margin-bottom: -6rem;
+  }
+  .textHero img {
+    margin-bottom: -1.5rem;
+    margin-left: 7.2rem;
+    width: 13px;
+    z-index: -99;
+    z-index: 1;
+    position: relative;
+  }
+}
+
+/* MEDIA QUERY FOR TABLET DEVICES */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .slantBackground {
+    height: 90vh;
+    width: 65%;
+    border-right: 410px solid #cf9832;
+    /* border-top: 670px solid white; */
+  }
+  .imageOne {
+    border: 1px solid #fff;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    margin-right: -270px;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    z-index: -99;
+    z-index: 1;
+    position: relative;
+    box-shadow: 17px 5px 77px 0px #3a3a3aab;
+  }
+  .imageTwo {
+    border: 16px solid white;
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    background-color: #cf9832;
+  }
+
+  .textHero h1 {
+    font-size: 40px;
+    width: 60%;
+    line-height: 1.2;
+  }
+  .textHero h1 span {
+    color: #cf9832;
+  }
+  .textHero h3 {
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+  .textHero p {
+    font-size: 15px;
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+  .dots img {
+    display: none;
+  }
+  
+  .heroCart {
+    margin-left: 30rem;
+  }
+  .textHero img {
+    margin-bottom: -1.7rem;
+    margin-left: 1.1rem;
+    width: 19px;
+    z-index: -99;
+    z-index: 1;
+    position: relative;
+  }
+}
+
