@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import logo from '../../assets/images/image 25.png';
 import Button from './Button';
+import { Link } from 'react-router-dom';
+
 
 export const Navbar = ({ loginStyle, signUpStyle }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [navHeight, setNavHeight] = useState(false);
 
-  const navLinksStyle = `${menuOpen && 'hover:bg-[#e7bd3c8f] py-4 w-full rounded -m-'} hover:md:text-[#CF9832]`
+  const navLinksStyle = `${menuOpen && 'hover:bg-[#e7bd3c8f] py-4 w-full rounded block'} hover:md:text-[#CF9832] mb-0`
   const navLinksUlWrapperStyle = `${menuOpen ? 'absolute top-16 w-[100%] right-0 rounded-b-2xl transition-all shadow-xl bg-[#FDFDFD]' : 'hidden'} gap-6 md:flex md:flex-row flex-col items-center justify-center text-center gap py-6 px-8 text-[#666666] uppercase font-semibold`
 
   // rgba(246,245,242,0.87)
@@ -22,13 +24,13 @@ export const Navbar = ({ loginStyle, signUpStyle }) => {
   }
 
   const handleScrollEffect = () => {
-    if (window.scrollY > 170) {
+    if (window.scrollY > 150) {
       setNavHeight(true);
     } else {
       setNavHeight(false);
     }
   }
-  // console.log(window);
+
   useEffect(() => {
     window.addEventListener('resize', handleScreenWidth)
     window.addEventListener('scroll', handleScrollEffect)
@@ -40,21 +42,20 @@ export const Navbar = ({ loginStyle, signUpStyle }) => {
 
   return (
 
-    <nav className={`transition-all md:py-6 py-4 md:px-15 sm:px-10 px-5 w-full z-10 
-    // ${navHeight ? 'bg-[#FDFDFD] shadow fixed' : ''} 
+    <nav className={`transition-all md:py-6 py-4 md:px-15 sm:px-10 px-5 w-full z-10 ${navHeight ? 'bg-[#FDFDFD] shadow fixed' : 'fixed'} 
     sm:bg-none`}>
       <div className='container mx-auto flex items-center justify-between relative'>
 
         <div className='flex items-center'>
-          <img src={logo} alt="Logo" className='h-12 ' />
+          <Link to="/"> <img src={logo} alt="Logo" className='h-12 ' /></Link>
         </div>
 
         <ul className={`${navLinksUlWrapperStyle}`}>
-          <li className={`text-[#CF9832] ${navLinksStyle}`}><a href="#">Home</a></li>
-          <li className={navLinksStyle}><a href="#">Store</a></li>
-          <li className={navLinksStyle}><a href="#">About</a></li>
-          <li className={navLinksStyle}><a href="#">Blog</a></li>
-          <li className={navLinksStyle}><a href="#">Contact</a></li>
+          <Link to="/" className={`text-[#CF9832] ${navLinksStyle}`}>Home</Link>
+          <Link to="/store" className={navLinksStyle}>Store</Link>
+          <Link to="/about" className={navLinksStyle}>About</Link>
+          <Link to="/blog" className={navLinksStyle}>Blog</Link>
+          <Link to="/contact" className={navLinksStyle}>Contact</Link>
         </ul>
 
         <div className='flex gap-4'>
