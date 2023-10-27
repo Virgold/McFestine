@@ -9,7 +9,7 @@ import map from '../../assets/images/Rectangle.png'
 
 const ContactUs = () => {
     return (
-        <div className='bg-[#b3b3b31c] min-w-full min-h-screen overflow-x-hidden lg:p-0  pt-[120px]'>
+        <div className='bg-[#FAFAFA] min-w-full min-h-screen overflow-x-hidden lg:p-0 pt-[120px]'>
             <FirstSection />
             <Faq />
             <Form />
