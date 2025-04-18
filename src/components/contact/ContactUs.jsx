@@ -6,12 +6,11 @@ import email from '../../assets/images/mail.png'
 import location from '../../assets/images/location_on.png'
 import phone from '../../assets/images/call.png'
 import map from '../../assets/images/Rectangle.png'
-import { Footer } from '../common/Footer';
+
 
 const ContactUs = () => {
     return (
-
-        <div>
+        <div className='bg-[#FAFAFA] min-w-full min-h-screen overflow-x-hidden lg:p-0 pt-[120px]'>
             <FirstSection />
             <Faq />
             <Form />
